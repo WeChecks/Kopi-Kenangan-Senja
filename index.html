@@ -3,72 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pelajari manfaat kesehatan dari memakan keripik daun bawang dan mengapa camilan ini baik untuk Anda.">
-    <meta name="keywords" content="keripik daun bawang, manfaat kesehatan, camilan sehat, nutrisi, makanan ringan">
-    <meta name="author" content="Muhamad Arief Wicakono">
-    <title>Manfaat Memakan Keripik Daun Bawang</title>
-    <style>
-        body {
-            background-color: rgb(54, 54, 51);
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-        header, nav, main, footer {
-            padding: 5px;
-        }
-        h1, h2 {
-            color: lightgreen;
-        }
-        a {
-            color: lightblue;
-        }
-        a:hover {
-            color: yellow;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        footer{
-            color:greenyellow;
-            text-align: center;
-        }
-    </style>
+    <title>Kopi Kenangan Sejati</title>
+    
+    <!-- Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Manfaat Memakan Keripik Daun Bawang</h1>
-        <nav>
-            <ul>
-                <li><a href="#section1">Pengenalan</a></li>
-                <li><a href="#section2">Kandungan Nutrisi</a></li>
-                <li><a href="#section3">Manfaat Kesehatan</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Kenangan<span>senja.</span></a>
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
-    <main>
-        <section id="section1">
-            <h2>Bagian 1: Pengenalan</h2>
-            <p>Keripik daun bawang adalah camilan yang semakin populer di kalangan masyarakat yang peduli kesehatan. Terbuat dari daun bawang segar yang dipotong tipis dan digoreng hingga renyah, keripik ini tidak hanya lezat tetapi juga menawarkan berbagai manfaat kesehatan. Dengan teksturnya yang renyah dan rasa yang gurih, keripik daun bawang sering dijadikan alternatif yang lebih sehat dibandingkan keripik kentang atau camilan lainnya yang tinggi kalori dan lemak jenuh. Selain itu, keripik ini juga mudah ditemukan di berbagai toko makanan sehat dan pasar tradisional.</p>
-            <img src="logo.jpeg" alt="Keripik daun bawang dalam mangkuk" width="300px">
-        </section>
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, consectetur?</p>
+            <a href="#" class="cta">Beli Sekarang</a>
+        </main>
+    </section>
+    <!-- Hero Section end -->
 
-        <section id="section2">
-            <h2>Bagian 2: Kandungan Nutrisi</h2>
-            <p>Keripik daun bawang mengandung berbagai nutrisi penting yang bermanfaat bagi tubuh. Daun bawang sendiri dikenal kaya akan vitamin A, yang penting untuk kesehatan mata dan sistem kekebalan tubuh. Selain itu, keripik ini juga mengandung vitamin C, yang berperan sebagai antioksidan untuk melawan radikal bebas dan meningkatkan kekebalan tubuh. Serat yang terdapat dalam daun bawang membantu menjaga kesehatan pencernaan dan mencegah sembelit. Kandungan antioksidan lain seperti quercetin dan kaempferol juga ditemukan dalam daun bawang, yang dapat membantu mengurangi risiko penyakit kronis seperti kanker dan penyakit jantung.</p>
-            <img src="keripik.jpg" alt="Daun bawang segar">
-        </section>
+    <!-- About Section start -->
+    <section id="about" class="about">
+        <h2><span>Tentang</span> Kami</h2>
+        
+        <div class="row">
+            <div class="about-img">
+                <img src="images/Tentang-Kami.jpg" alt="Tentang Kami">
+            </div>
+            <div class="content">
+                <h3>Kenapa Memilih Kopi Kami?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quibusdam aspernatur suscipit, eos hic tenetur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque dolorem illo mollitia temporibus ab, repudiandae in officia adipisci quibusdam iusto?</p>
+            </div>
+        </div>
+    </section>
+    <!-- About Section end -->
 
-        <section id="section3">
-            <h2>Bagian 3: Manfaat Kesehatan</h2>
-            <p>Mengkonsumsi keripik daun bawang dapat memberikan berbagai manfaat kesehatan. Pertama, kandungan serat dalam keripik ini membantu meningkatkan kesehatan pencernaan dengan mempromosikan gerakan usus yang teratur dan mencegah sembelit. Kedua, vitamin A yang terdapat dalam daun bawang penting untuk menjaga kesehatan mata dan mencegah degenerasi makula seiring bertambahnya usia. Ketiga, vitamin C yang berfungsi sebagai antioksidan membantu meningkatkan sistem kekebalan tubuh, sehingga Anda lebih tahan terhadap infeksi dan penyakit. Selain itu, kandungan antioksidan lain dalam daun bawang, seperti quercetin, dapat membantu mengurangi peradangan dan risiko penyakit kronis seperti kanker dan penyakit jantung. Dengan begitu banyak manfaat yang ditawarkan, tidak heran jika keripik daun bawang menjadi pilihan camilan yang sehat dan lezat.</p>
-            <img src="keripik1.jpg" alt="Keripik daun bawang dalam kemasan">
-        </section>
-    </main>
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+        <h2><span>Menu</span> Kami</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quas incidunt laboriosam est hic officia.</p>
 
+        <div class="row">
+            <div class="menu-card">
+                <img src="images/Menu/satu.jpg" alt="Expresso" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Expresso -</h3>
+                <p class="menu-card-price">IDR 15K</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/Menu/satu.jpg" alt="Expresso" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Expresso -</h3>
+                <p class="menu-card-price">IDR 15K</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/Menu/satu.jpg" alt="Expresso" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Expresso -</h3>
+                <p class="menu-card-price">IDR 15K</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/Menu/satu.jpg" alt="Expresso" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Expresso -</h3>
+                <p class="menu-card-price">IDR 15K</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/Menu/satu.jpg" alt="Expresso" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Expresso -</h3>
+                <p class="menu-card-price">IDR 15K</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/Menu/satu.jpg" alt="Expresso" class="menu-card-img">
+                <h3 class="menu-card-tittle">- Expresso -</h3>
+                <p class="menu-card-price">IDR 15K</p>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, odit.</p>
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.573045781471!2d106.79987241046119!3d-6.448821893515645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e9ee933952cf%3A0xe876853465a33f15!2sCitayam!5e0!3m2!1sen!2sid!4v1710343961147!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="nama">
+                </div>
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="email">
+                </div>
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="no hp">
+                </div>
+                <button type="submit" class="btn">kirim pesan</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
     <footer>
-        <p>&copy; 2024 Muhamad Arief Wicaksono. Semua hak dilindungi undang-undang.</p>
+        <div class="socials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <div class="credit">
+            <p>Created by <a href="">AriefWM</a>. | &copy; 2023</p>
+        </div>
     </footer>
+    <!-- Footer end -->
+
+    <!-- Feather icons -->
+    <script>
+        feather.replace();
+      </script>
+
+      <!-- My Javascipt -->
+      <script src="js/script.js"></script>
 </body>
 </html>
